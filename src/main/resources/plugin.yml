@@ -1,0 +1,11 @@
+name: ExpMultiplier
+version: 1.0
+main: dev.expmulti.ExpMultiplier
+api-version: "1.21"
+commands:
+  expmulti:
+    description: Reload the XP multiplier config
+    permission: expmulti.admin
+permissions:
+  expmulti.admin:
+    default: op
