@@ -1,0 +1,9 @@
+# ตัวคูณ XP (20 = ได้ XP เพิ่ม 20 เท่า)
+multiplier: 20.0
+
+# รวมก้อน XP (clump): รวมลูก XP ที่อยู่ใกล้กันให้เป็นลูกเดียว
+clump:
+  enabled: true
+  radius: 5.0          # รัศมีรวมก้อน (บล็อก)
+  interval-ticks: 10   # ตรวจทุกกี่ tick (20 tick = 1 วินาที)
+  max-orb-value: 0     # ค่า XP สูงสุดต่อลูก (0 = ไม่จำกัด)
